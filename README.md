@@ -4,6 +4,14 @@
 
 While the module itself is written in CoffeeScript, the NPM version is pure JavaScript.
 
+## Installation
+
+Install from NPM. The NPM module name is `miniconf`:
+
+```bash
+npm install miniconf --save
+```
+
 ## Rules
 
 1. Your main configuration file will be loaded with a call to `require('<path>/config')`, where `<path>` is the folder your `package.json` resides in. The require will attempt to load `<path>/config.{js,json}` and `<path>/config/index.{js,json}` among others. For example, if you're using [CoffeeScript][coffeescript], `<path>/config.coffee` will also be checked.
