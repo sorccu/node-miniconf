@@ -12,6 +12,7 @@
     "test": "grunt test"
   },
   "dependencies": {
+    "findup-sync": "~0.1.2"
   },
   "devDependencies": {
     "coffee-script": "1.6.2",
