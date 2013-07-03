@@ -12,6 +12,11 @@ module.exports = (grunt) ->
       index:
         src: 'index.coffee'
         dest: 'index.js'
+    clean:
+      lib:
+        src: 'lib'
+      index:
+        src: 'index.js'
     coffeelint:
       src:
         src: '<%= coffee.src.cwd %>/<%= coffee.src.src %>'
@@ -51,6 +56,7 @@ module.exports = (grunt) ->
         cmd: './node_modules/.bin/mocha <%= exec.mocha.options.join(" ") %>'
 
   grunt.loadNpmTasks 'grunt-contrib-coffee'
+  grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-coffeelint'
   grunt.loadNpmTasks 'grunt-jsonlint'
   grunt.loadNpmTasks 'grunt-contrib-watch'
