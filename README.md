@@ -23,7 +23,7 @@ npm install miniconf --save
 
 ## Example
 
-`config/index.json`
+`config/index.json`:
 
 ```json
 {
@@ -34,7 +34,7 @@ npm install miniconf --save
 }
 ```
 
-`config/production.json`
+`config/production.json`:
 
 ```json
 {
@@ -43,6 +43,8 @@ npm install miniconf --save
   }
 }
 ```
+
+`NODE_ENV=production coffee`:
 
 ```coffeescript
 conf = require 'miniconf'
