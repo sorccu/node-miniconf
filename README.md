@@ -1,6 +1,6 @@
-# stf-conf
+# node-miniconf
 
-**stf-conf** is a simple configuration module for reading configuration files in a `NODE_ENV` friendly fashion. Conventions are enforced; the module itself is unconfigurable. This approach makes it very easy to use when your app consists of multiple smaller apps. While the configuration files remain separate, at the very least you don't need to configure your configuration loader in every project.
+**node-miniconf** is a simple configuration module for reading configuration files in a `NODE_ENV` friendly fashion. Conventions are enforced; the module itself is unconfigurable. This approach makes it very easy to use when your app consists of multiple smaller apps. While the configuration files remain separate, at the very least you don't need to configure your configuration loader in every project.
 
 While the module itself is written in CoffeeScript, the NPM version is pure JavaScript.
 
