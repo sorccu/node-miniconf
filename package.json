@@ -1,6 +1,5 @@
 {
   "name": "miniconf",
-  "private": false,
   "version": "0.1.0",
   "author": "Simo Kinnunen <simo@shoqolate.com>",
   "repository": {
