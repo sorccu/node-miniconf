@@ -1,0 +1,36 @@
+{
+  "name": "miniconf",
+  "version": "1.0.0",
+  "author": "Simo Kinnunen <simo@shoqolate.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorccu/node-miniconf.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt coffee",
+    "postpublish": "grunt clean"
+  },
+  "dependencies": {
+    "findup-sync": "~0.1.2"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.2",
+    "grunt": "0.4.1",
+    "grunt-cli": "0.1.7",
+    "grunt-notify": "0.2.3",
+    "grunt-contrib-coffee": "0.6.6",
+    "grunt-contrib-watch": "0.3.1",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-coffeelint": "0.0.6",
+    "grunt-jsonlint": "1.0.0",
+    "grunt-exec": "0.4.0",
+    "mocha": "1.9.0",
+    "chai": "1.5.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.1"
+  }
+}

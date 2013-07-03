@@ -1,0 +1,6 @@
+/src/
+/test/
+/index.coffee
+/Gruntfile.coffee
+/.npmignore
+/.editorconfig
